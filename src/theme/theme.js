@@ -1,13 +1,6 @@
 import { createTheme } from "@mui/material";
 
 export const theme = createTheme({
-    palette: {
-        primary: {
-            bg: '#f9fafb',
-            text: '#000000',
-            fill: '#7AB259',
-        }
-    },
     components: {
         MuiContainer: {
             defaultProps: {
